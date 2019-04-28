@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import "./Style/index.css";
+import App from "./Components/App";
 import * as serviceWorker from "./serviceWorker";
-import { StoreProvider } from "./store";
-import "./index.css";
-import HomePage from "./HomePage";
+import { StoreProvider } from "./Store/store";
+// import "./index.css";
+import HomePage from "./Components/HomePage";
 import { Router } from "@reach/router";
-import FavPage from "./FavPage";
+import FavPage from "./Components/FavPage";
 
 ReactDOM.render(
   <StoreProvider>
